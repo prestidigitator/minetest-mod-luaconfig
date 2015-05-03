@@ -12,7 +12,7 @@ and then optionally (to make settings globally visible):
    mymod = { config = config };
 
 This automatically detects the name and path of your mod and loads settings
-from "config.lua" in your mod directory and/or "<myMod>_config.lua" in the
+from "config.lua" in your mod directory and/or "mymod_config.lua" in the
 world directory, allowing the latter to add to or overwrite the former.  No
 errors will be generated if either or both files are missing.
 
