@@ -17,9 +17,9 @@ world directory, allowing the latter to add to or overwrite the former.  No
 errors will be generated if either or both files are missing.
 
 This mod allows simple Lua variable-based configuration settings that almost
-guarantee that you don't accidentally set global variables (you can if you
-REALLY try, but it's difficult).  You'll have access to all variables defined
-from the config files using logic like:
+guarantee that you don't accidentally set global variables from the config
+files (you can if you REALLY try, but it's difficult).  You'll have access to
+all variables defined from the config files using logic like:
 
    print(config.message);
 
